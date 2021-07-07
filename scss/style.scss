@@ -1,0 +1,35 @@
+@import "grid";
+@import "flex";
+@import "mixin";
+body{
+  font-family: Work Sans,Arial,Helvetica,sans-serif;
+  font-size: 14px;
+}
+@media (max-width:700px) {
+}
+@media (max-width:992px) {
+}
+@media (max-width:1200px) {
+}
+@media (max-width:1500px) {
+}
+@media (min-width:1500px) {
+}
+.container{
+  @include xs(){
+  }
+  @include sm(){
+  }
+  @include md(){
+  }
+  @include lg(){
+  }
+  @include xl(){
+  }
+}
+
+
+
+h1{
+  color: aqua;
+}
